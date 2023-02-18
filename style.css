@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin-left: 8%;
+    margin-right: 8%;
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 83vw;
+    height: 10vh;
+    display: inline;
+    position: fixed;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+
+#edu_class {
+    font-size: 3rem;
+    margin-bottom: 5vh;
+}
+
+nav h1 {
+    margin-right: 2vw;
+}
+
+.links {
+    padding-top: 2vh;
+    display: flex;
+}
+
+.links h1 {
+    padding-right: 8vw;
+    color: rgb(18, 178, 241);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav a {
+    display: inline;
+    font-weight: 700;
+    padding-top: 1vh;
+    padding-right: 3vw;
+    color: black;
+    float: right;
+    text-decoration: none;
+}
+
+nav button {
+    margin-left: 14vw;
+    clear: rights;
+    float: right;
+}
+
+#hire_me {
+    width: 7vw;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(18, 178, 241);
+    height: 3vh;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.hire_me button a {
+    padding-left: 3vw;
+    margin-left: 3vw;
+}
+
+#im {
+    color: rgb(53, 52, 52);
+    font-size: 3.5rem;
+}
+
+#ty {
+    color: black;
+    font-size: 4rem;
+}
+
+.sec {
+    padding-top: 24vh;
+    display: flex;
+    padding-top: 30vh;
+}
+
+.left-section {
+    width: 50%;
+    height: 70vh;
+    background-image: url(./image/asset\ 12.png);
+    background-size: cover;
+}
+
+.headings {
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+.headings a {
+    text-decoration: none;
+}
+
+.headings {
+    padding-top: 25vh;
+    padding-left: 10vw;
+    font-size: 2rem;
+}
+
+.right-section {
+    width: 50%;
+    height: 70vh;
+}
+
+.right-section {
+    top: 0%;
+    padding-top: 13vh;
+    padding-left: 17vw;
+}
+
+.Education {
+    scroll-behavior: smooth;
+    background-image: url(./image/education-background.jpg);
+    background-size: cover;
+    width: 83vw;
+    height: 50vh;
+    margin-top: 20vh;
+    border-radius: 8px;
+    box-shadow: 1pz 4px 8px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Education:hover {
+    box-shadow: 4px 4px 700px rgba(87, 87, 255, 0.548);
+    transition: all 1s ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hslide {
+    margin-top: 8vh;
+    font-size: 1.8rem;
+    row-gap: 18vh;
+    color: aliceblue;
+}
+
+.Skills {
+    margin-top: 10vh;
+    display: flex;
+}
+
+.box {
+    width: 12vw;
+    height: 20vh;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 4vh 4vw;
+    padding: 0 2vw;
+    box-shadow: 2px 2px 20px rgba(80, 78, 78, 0.288);
+    position: sticky;
+}
+
+.box img {
+    width: 5vw;
+    height: 10vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+.skills>.box:hover {
+    box-shadow: 1px 1px 20px skyblue;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.hwrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hslide.h1 {
+    font-size: 2rem;
+}
+
+.hmove {
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.hslide {
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+@keyframes slideh {
+    0% {
+        right: 0;
+    }
+
+    30% {
+        right: 0;
+    }
+
+    33% {
+        right: 100%;
+    }
+
+    63% {
+        right: 100%;
+    }
+
+    66% {
+        right: 200%;
+    }
+
+    97% {
+        right: 200%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+.hmove {
+    animation: slideh linear 9s infinite;
+}
+
+.hmove:hover {
+    animation-play-state: paused;
+}
+
+.skills {
+    border-radius: 5px;
+    height: 60vh;
+    width: 83vw;
+    margin-bottom: 10vh;
+}
+
+.projects {
+    height: 70vh;
+    margin-top: 20vh;
+    display: inline-flex;
+    column-gap: 3vw;
+}
+
+.p_box img {
+    width: 26vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 50px black;
+    height: 27vh;
+    cursor: pointer;
+}
+
+.p_box .lower {
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.upper img {
+    transition: transform 2s;
+    /* Animation */
+}
+
+.skills {
+    animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+}
+
+@keyframes slide-in-bck-center {
+    0% {
+        transform: translateZ(600px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+
+.left-section {
+    animation: bounce-in-top 2s both;
+}
+
+@keyframes bounce-in-top {
+    0% {
+        transform: translateY(-500px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        transform: translateY(-65px);
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        transform: translateY(-28px);
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        transform: translateY(-8px);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+.upper img:hover {
+    transform: scale(2.0);
+}
+
+.achivement h1 {
+    margin-bottom: 4vh;
+    font-size: 3rem;
+}
+
+.achivement {
+    display: inline-flexbox;
+    flex-direction: row;
+    background-size: contain;
+}
+
+.achivement img {
+    width: 20vw;
+    padding: 2vh 1vw;
+    border-radius: 5%;
+}
+
+.achivement img:hover {
+    transition: all 1s;
+    transform: scaleX(-1vh);
+    box-shadow: 2px 2px 50px black;
+}
+
+.contact_form {
+    display: flex;
+    width: 83vw;
+    height: 70vh;
+    margin-bottom: 15vh;
+    border-radius: 9px;
+    background: linear-gradient(to top right, skyblue, rgb(182, 33, 202));
+}
+
+.contact_form .left {
+    width: 35vw;
+    height: fit-content;
+
+}
+
+.contact_form .left h1 {
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.contact_form .right {
+    width: 65vw;
+    height: 50vh;
+    margin-top: 10vh;
+    display: inline;
+    margin-right: 10vw;
+    margin-left: 30vw;
+    background: linear-gradient(to top right, skyblue, rgb(182, 33, 202));
+    font-size: 1.2rem;
+}
+
+.right {
+    display: flex;
+    border-radius: 9px;
+    box-shadow: 2px 2px 70px white;
+}
+
+.right input {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding: 0 1vmax;
+    text-decoration: none;
+
+}
+
+.right form {
+    margin-top: 6vh;
+    margin-left: 3vw;
+}
+
+
+.right div {
+    margin-top: 1vh;
+}
+
+#btn {
+    margin-top: 5vh;
+    width: 12vw;
+    height: 3vh;
+    margin-left: 1.5vw;
+    border-radius: 9px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#btn:hover {
+    background-color: #1a1dc9b4;
+}
+
+footer {
+    font-size: 1.2rem;
+    margin-bottom: 7vh;
+    cursor: pointer;
+}
+
+footer img {
+    width: 35px;
+    border-radius: 50%;
+
+}
+
+footer .logo h2 {
+    margin-left: 1vw;
+    margin-right: 30vw;
+}
+
+footer>div {
+    display: flex;
+    margin: 0 8vw 0 8vw;
+}
+
+footer .logo {
+    display: flex;
+}
+
+@media only screen and (max-width: 370px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        font-size: 0.6em;
+        display: block;
+        height: 8vh;
+    }
+
+    nav .links a h1 {
+        font-size: 0.6em;
+        display: flex;
+
+    }
+
+
+    .sec {
+        display: grid;
+        margin-top: 0;
+    }
+
+    .sec .left-section .headings h1 {
+        font-size: 0.8rem;
+    }
+
+    .sec .left-section background-image {
+        width: 100vw;
+        height: 10vh;
+    }
+
+
+}
